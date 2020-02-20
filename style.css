@@ -176,6 +176,10 @@ footer{
   width: 25%;
   background-color: red;
 }
+.icone-contact{
+  height: 76px;
+  background-color: orange;
+}
 .languages{
   background-color: yellow;
   height: 90px;
@@ -184,5 +188,5 @@ footer{
 .final{
   background-color: yellow;
   height: 90px;
-  
+
 }
