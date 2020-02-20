@@ -1,0 +1,44 @@
+/* GENERALE */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.center{
+  width: 80%;
+  margin: 0 auto;
+}
+ul{
+  list-style-type: none;
+}
+/* HEADER-------------------------------------------- */
+.nav-1-container{
+  background-color: #f5f8fa;
+}
+.nav-1{
+  background-color: #f5f8fa;
+}
+ .inline-block{
+  display: inline-block;
+}
+
+.li-world{
+  float: left;
+}
+.li-log-in{
+  float: left;
+}
+.li-nav{
+  float: left;
+}
+/* JUMBOTRON---------------------------------------------------- */
+.jumbotron{
+  background-image: url("immagini/jumbotron.png");
+  background-size: cover;
+  height: 100vh;
+}
