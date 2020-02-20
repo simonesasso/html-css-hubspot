@@ -91,6 +91,7 @@ body{
 }
 .tre-colonne{
   margin-top: 4%;
+  margin-bottom: 4%;
 }
 #colonna-sinistra{
   margin-left: 10%;
@@ -98,4 +99,22 @@ body{
 #colonna-centrale{
   margin-left: 4%;
   margin-right: 4%;
+}
+/* AZZURRA----------------------------------------------------- */
+.azzurra{
+  height: 100vh;
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.azzurra-txt{
+  padding-top: 8%;
+  padding-bottom: 6%;
+}
+.col-tab{
+  float: left;
+  width: 25%;
+  height: 100px;
+  background-color: red;
 }
