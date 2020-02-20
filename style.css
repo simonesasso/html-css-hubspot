@@ -112,9 +112,77 @@ body{
   padding-top: 8%;
   padding-bottom: 6%;
 }
+.azzurra-p{
+  padding-top: 2%;
+}
 .col-tab{
   float: left;
   width: 25%;
   height: 100px;
   background-color: red;
+  border-right: 1px solid white;
+}
+.riga2{
+  border-top: 1px solid white;
+}
+.no-border{
+  border-right: none;
+}
+/* LOGHI-------------------------------------------------------- */
+.loghi{
+  background-color: white;
+}
+.loghi-wrapper{
+  background-color: white;
+}
+.loghi-txt{
+  float: left;
+  background-color: red;
+  height: 323px;
+  width: 30%;
+}
+.marchi{
+  float: left;
+  background-color: pink;
+  height: 323px;
+  width: 70%;
+}
+/* STARTGROWING-------------------------------------- */
+.startgrowing{
+  background-color: white;
+}
+.startgrowing-wrapper{
+  background-color: white;
+}
+.startgrowing-txt{
+  float: left;
+  background-color: red;
+  height: 323px;
+  width: 50%;
+}
+.startgrowing-img{
+  float: left;
+  background-color: pink;
+  height: 323px;
+  width: 50%;
+}
+/* FOOTER------------------------------------------------------ */
+footer{
+  background-color: #33475b;
+  color: white;
+}
+.ul-footer{
+  float: left;
+  width: 25%;
+  background-color: red;
+}
+.languages{
+  background-color: yellow;
+  height: 90px;
+  border-bottom: 2px solid green;
+}
+.final{
+  background-color: yellow;
+  height: 90px;
+  
 }
