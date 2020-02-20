@@ -86,8 +86,47 @@ body{
 .colonna{
  float: left;
  width: 24%;
- background-color: red;
- height: 243px;
+ background-color: white;
+ text-align: center;
+ padding-bottom: 2%;
+}
+
+.colonna-img{
+  padding: 10% 0;
+}
+.col-p{
+  padding: 5% 12%;
+  text-align: left;
+}
+.hr-col{
+  width: 80%;
+  margin: 0 auto;
+  color: black;
+}
+.h4-col{
+  padding: 5% 0;
+}
+.ul-col{
+ text-align: left;
+ padding:  3% 12% 6%;
+}
+.get-started{
+  background-color: orange;
+  padding: 5%;
+  width: 40%;
+  margin: 0 auto;
+}
+#colonna-img-1{
+ width: 50%;
+ height: auto;
+}
+#colonna-img-2{
+  width: 62%;
+  height: auto;
+}
+#colonna-img-3{
+  width: 45%;
+  height: auto;
 }
 .tre-colonne{
   margin-top: 4%;
@@ -154,18 +193,22 @@ body{
 .startgrowing-wrapper{
   background-color: white;
 }
+.faccia{
+  width: 60%;
+  height: auto;
+}
 .startgrowing-txt{
   float: left;
-  background-color: red;
-  height: 323px;
+
+  text-align: left;
   width: 50%;
 }
 .startgrowing-img{
   float: left;
-  background-color: pink;
-  height: 323px;
+  text-align: right;
   width: 50%;
 }
+
 /* FOOTER------------------------------------------------------ */
 footer{
   background-color: #33475b;
@@ -174,7 +217,11 @@ footer{
 .ul-footer{
   float: left;
   width: 25%;
+  padding-top: 10%;
   background-color: red;
+}
+.li-footer{
+  padding: 3% 0;
 }
 .icone-contact{
   height: 76px;
@@ -182,7 +229,7 @@ footer{
 }
 .languages{
   background-color: yellow;
-  height: 90px;
+  padding: 5% 0;
   border-bottom: 2px solid green;
 }
 .final{
