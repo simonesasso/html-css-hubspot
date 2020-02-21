@@ -18,7 +18,7 @@ ul{
 }
 body{
   background-color:#f5f8fa;
-  
+
 }
 a{
   text-decoration: none;
@@ -43,11 +43,7 @@ a:hover{
   width: 25px;
   height: auto;
 }
-.nav2-container{
-  background-color: white;
-  margin-top: 88px;
-  padding: 27px 0;
-}
+
  .inline-block{
   display: inline-block;
 }
@@ -79,13 +75,19 @@ a:hover{
  background-color: white;
  color:  #ff7a59;
  border: 1px solid  #ff7a59;
- margin-right: 25px;
+margin-right: 25px;
 }
 #li-free-hub{
   padding: 12px;
   color: white;
   background-color:  #ff7a59;
 }
+.nav2-container{
+  background-color: white;
+  margin-top: 88px;
+  padding: 27px 0;
+}
+/* NAV2------------------------------------------------------------------------*/
 .navigazione{
   margin-left: 50%;
 }
