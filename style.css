@@ -19,6 +19,14 @@ ul{
 body{
   background-color: #f5f8fa;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: dodgerblue;
+}
+
 /* header--------------------------------------------------------------- */
 .nav-1-container{
   position: fixed;
@@ -50,7 +58,26 @@ body{
 .jumbotron{
   background-image: url("immagini/jumbotron.png");
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
+}
+.jumbotron-txt{
+  max-width: 30%;
+  margin-left: 10%;
+  padding-top:8%;
+  font-size: 140%;
+}
+.jumbotron-h2{
+ padding-bottom: 3%;
+}
+.jumbotron-p{
+ padding-bottom: 6%;
+}
+.jumbotron-link{
+ padding: 3%;
+ background-color: orange;
+}
+.jumbotron-link:hover{
+  color: white;
 }
 /* CUBO--------------------------------------------------------- */
 .cubo{
@@ -141,7 +168,7 @@ body{
 }
 /* AZZURRA----------------------------------------------------- */
 .azzurra{
-  height: 100vh;
+  padding-bottom: 8%;
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
   text-align: center;
   color: white;
@@ -157,9 +184,13 @@ body{
 .col-tab{
   float: left;
   width: 25%;
-  height: 100px;
-  background-color: red;
+  padding: 3% 0;
   border-right: 1px solid white;
+  text-align: center;
+}
+.col-tab-img{
+  width: 17%;
+  height: auto;
 }
 .riga2{
   border-top: 1px solid white;
@@ -218,18 +249,31 @@ footer{
   float: left;
   width: 25%;
   padding-top: 10%;
-  background-color: red;
+
 }
 .li-footer{
   padding: 3% 0;
+  color: white;
+}
+.a-footer:hover{
+  color: dodgerblue;
+  cursor: pointer;
 }
 .icone-contact{
-  height: 76px;
-  background-color: orange;
+ padding: 4%;
+
+}
+.white-contact{
+  background-color: white;
+  padding: 1%;
+  color: black;
+  width: 20%;
+  text-align: center;
+  margin-left: 70%;
 }
 .languages{
   background-color: yellow;
-  padding: 5% 0;
+  padding: 4% 0;
   border-bottom: 2px solid green;
 }
 .final{
