@@ -134,6 +134,7 @@ a:hover{
 /* FREE CRM---------------------------------- */
 .freecrm{
   background-color: white;
+  padding-bottom: 5%;
 }
 .freecrm-img{
   text-align: center;
@@ -143,13 +144,45 @@ a:hover{
 .bookimg{
   width: 50%;
   height: auto;
-  padding-top: 8%;
+  padding: 8% 0;
+}
+.crm-btn{
+  padding: 3% 5%;
+  background-color: #ff7a59;
+}
+.crm-btn:hover{
+  color: white;
 }
 .freecrm-txt{
   float: left;
   width: 60%;
-  background-color: red;
-  height: 250px;
+}
+.span-border{
+  border-top: 1px solid black;
+  padding-bottom: 4px;
+  width: 71%;
+  display: inline-block;
+  margin-left: 2%;
+}
+.crm-h2{
+  padding: 6% 0;
+}
+.crm-h5{
+  display: inline-block;
+  padding: 6% 0;
+}
+.crm-p{
+  padding-right: 10px;
+}
+.spunta-crm{
+  width: 2.5%;
+  height: auto;
+  margin-right: 2%;
+
+}
+.spunta-span{
+  margin-right: 4%;
+  font-size: 110%;
 }
 /* TRE COLONNE---------------------------------------------------------- */
 .colonna{
@@ -184,14 +217,15 @@ a:hover{
 }
 .ul-col{
  text-align: left;
- padding:  3% 12% 6%;
+ padding:  3% 11% 12%;
  font-size: 120%;
 }
 .get-started{
   background-color: #ff7a59;
   padding: 5%;
-  width: 40%;
-  margin: 0 auto;
+}
+.get-started:hover{
+  color: white;
 }
 #colonna-img-1{
  width: 50%;
@@ -251,20 +285,29 @@ a:hover{
 /* LOGHI-------------------------------------------------------- */
 .loghi{
   background-color: white;
+  padding: 5% 0;
 }
 .loghi-wrapper{
   background-color: white;
+
 }
 .loghi-txt{
   float: left;
-  background-color: red;
-  height: 323px;
   width: 30%;
+  font-size: 180%;
+}
+
+
+.h2-loghi{
+  margin-top: 15%;
+}
+.p-loghi{
+  max-width: 80%;
 }
 .marchi{
   float: left;
   background-color: pink;
-  height: 323px;
+
   width: 70%;
 }
 /* STARTGROWING-------------------------------------- */
@@ -303,6 +346,9 @@ a:hover{
   padding: 5%;
   margin-top: 5%;
 }
+.startgrowing-btn:hover{
+  color: white;
+}
 /* FOOTER------------------------------------------------------ */
 footer{
   background-color: #33475b;
@@ -335,12 +381,23 @@ footer{
   margin-left: 70%;
 }
 .languages{
-  background-color: yellow;
+
   padding: 4% 0;
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+.languages-link{
+  padding: 0 30px;
+  font-size: 150%;
 }
 .final{
-  background-color: yellow;
-  height: 90px;
-
+  padding: 4% 0;
+}
+.final-span{
+  display: inline-block;
+  margin-left: 60%;
+  font-size: 150%;
+}
+.final-p{
+  padding-top: 2%;
 }
