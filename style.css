@@ -125,6 +125,7 @@ margin-right: 25px;
 .dropdown-content a{
   color: black;
 }
+/* ABOUTCOL--------------- */
 .about-col{
   float: left;
   width: 50%;
@@ -132,6 +133,28 @@ margin-right: 25px;
 }
 .about-col:hover{
   background-color: 	#B0E0E6;
+}
+/* COLPRICES----------------------------------------------------------*/
+.col-prices{
+  float: left;
+  width: 33.3%;
+  padding: 2%;
+}
+.col-prices:hover{
+  background-color: 	#B0E0E6;
+  min-height: 215px;
+}
+.riga{
+  margin: 2% 0;
+  padding: 2%;
+}
+.border-riga{
+  border-bottom: 1px solid lightgrey;
+}
+#new{
+  padding: 1px 5px;
+  background-color: green;
+  border-radius: 5px;
 }
 /* JUMBOTRON---------------------------------------------------- */
 .jumbotron{
