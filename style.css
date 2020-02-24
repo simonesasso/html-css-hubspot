@@ -90,7 +90,7 @@ margin-right: 25px;
 }
 
 .navigazione{
-  margin-left: 50%;
+  margin-left: 45%;
 }
 .li-nav{
   float: left;
@@ -106,6 +106,32 @@ margin-right: 25px;
 .a-nav:hover{
   color: black;
   cursor: pointer;
+}
+/* DROPDOWN------------------------------------------------------ */
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  right: 5%;
+  top: 22%;
+  padding: 2%;
+  background-color: white;
+  width: 50%;
+  border: 1px solid lightgrey;
+  box-shadow: 15px 10px 18px #888888;
+}
+.dropdown-content a{
+  color: black;
+}
+.about-col{
+  float: left;
+  width: 50%;
+  padding: 2%;
+}
+.about-col:hover{
+  background-color: 	#B0E0E6;
 }
 /* JUMBOTRON---------------------------------------------------- */
 .jumbotron{
@@ -148,6 +174,17 @@ margin-right: 25px;
   background-color: white;
   padding-bottom: 5%;
 }
+.freecrm:hover{
+  animation-name: ingrandire;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  box-shadow: 15px 10px 18px #888888;
+}
+@keyframes ingrandire {
+  from {width: 80%;}
+  to {width: 83%;}
+}
+
 .freecrm-img{
   text-align: center;
   float: left;
@@ -203,6 +240,17 @@ margin-right: 25px;
  background-color: white;
  text-align: center;
  padding-bottom: 2%;
+}
+.colonna:hover{
+  animation-name: ingrandire-colonna;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  box-shadow: 15px 10px 18px #888888;
+
+}
+@keyframes ingrandire-colonna {
+  from {width: 24%;}
+  to {width: 24.2%;}
 }
 .spunta{
   width: 7%;
@@ -284,15 +332,16 @@ margin-right: 25px;
   border-right: 1px solid white;
   text-align: center;
 }
-.col-tab-img{
-  width: 17%;
-  height: auto;
-}
+
 .riga2{
   border-top: 1px solid white;
 }
 .no-border{
   border-right: none;
+}
+#small{
+  width: 56%;
+  height:auto;
 }
 /* LOGHI-------------------------------------------------------- */
 .loghi{
